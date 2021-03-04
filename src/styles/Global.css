@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+#app{
+    position: relative;
+}
+
+.post{
+    -webkit-box-shadow: -5px 5px 17px 0px rgba(0,0,0,0.23);
+    -moz-box-shadow: -5px 5px 17px 0px rgba(0,0,0,0.23);
+    box-shadow: -5px 5px 17px 0px rgba(0,0,0,0.23);
+
+    margin: 15px;
+    border-radius: 5px;
+    background-color: #e0e0e02a;
+}
+
+.userInfo{
+    width: 100%;
+    margin: 5px;
+}
+
+.userImageProfile{
+    height: 48px;
+    width: 48px;
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+.userName{
+    font-family: 'Oswald', sans-serif;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #222;
+    cursor: pointer;
+}
+
+.image{
+    border-radius: 5px;
+}
+
+.postFooter{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.like, .favorite{
+    cursor: pointer;
+    text-align: center;
+    color: #333;
+    background-color: rgba(190, 190, 190, 0.199);
+    border-radius: 10px;
+    width: 70px;
+}
+
+.like img, .favorite img{
+    width: 30px;
+    height: 30px;
+}
+
+#loading{
+    /* height: 60vh; */
+    width: 400px;
+    height: 300px;
+}
