@@ -6,7 +6,6 @@
 <img src="./gitHub/images/fetch-image-pc 15.png"/> 
 
 <br/>
-<br/>
 
 <h2>Is it <strong>Responsive<strong>?</h2>
 <img src="./gitHub/images/fetch-image-mobal.gif">
